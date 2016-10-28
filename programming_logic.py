@@ -11,6 +11,7 @@ def prime_generator(end):
 
 #this checks if a given value is prime, returns a boolean
 def is_prime(num):
+    #don't loop if even
     if num%2==0:
         return False
     if num<2:
