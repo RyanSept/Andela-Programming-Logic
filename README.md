@@ -7,4 +7,4 @@ This function takes 1 parameter that is the ceiling for all the prime numbers re
 
 **fibonacci_generator(end)**
 
-This function takes 1 parameter that returns all fibonacci numbers less than or equal to the parameter. eg. **fibonacci_generator(4)** returns [0,1,1,2,3]
+This function takes 1 parameter that returns all fibonacci numbers less than or equal to the parameter. eg. **fibonacci_generator(4)** returns [0,1,1,2,3,]
