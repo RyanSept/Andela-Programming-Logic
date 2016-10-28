@@ -23,7 +23,6 @@ def is_prime(num):
                 return False
             return True
 
-print prime_generator(101)
 
 
 def fib(n):
@@ -33,7 +32,8 @@ def fib(n):
     fibonacci_numbers = [0,1]
     while next_fib<n:
         next_fib = fibonacci_numbers[-1]+fibonacci_numbers[-2]
-        fibonacci_numbers.append(next_fib)
+        if next_fib<=n:
+            fibonacci_numbers.append(next_fib)
         print next_fib
     return fibonacci_numbers
 
