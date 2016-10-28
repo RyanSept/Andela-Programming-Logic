@@ -25,16 +25,15 @@ def is_prime(num):
 
 
 
-def fib(n):
+def fibonacci_generator(n):
     if n<=1:
-        return n
+        return [n]
     next_fib = 0
     fibonacci_numbers = [0,1]
     while next_fib<n:
         next_fib = fibonacci_numbers[-1]+fibonacci_numbers[-2]
         if next_fib<=n:
             fibonacci_numbers.append(next_fib)
-        print next_fib
     return fibonacci_numbers
 
         
