@@ -21,7 +21,7 @@ def is_prime(num):
     if num==2 or num==3:
         return True
     else:
-        #we loop from 2 to the number checking if it's divisible by 2
+        #we loop from 2 to the number checking if it's divisible by numbers before it
         #we return false if it is divisible, true if it's not
         for i in range(2,num):
             if num%i==0:
